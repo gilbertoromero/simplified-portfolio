@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { ProjectList } from '@/components/project-list'
 import { projectsByYear } from '@/data/projects'
 

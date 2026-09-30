@@ -2,7 +2,7 @@
 
 A simple, typography-first personal site to showcase who I am and my professional experience — the projects I've worked on and a bit about me.
 
-The design is deliberately minimal: a single readable column, no clutter, and content that's easy to update.
+The design is deliberately minimal, no clutter, and content that's easy to update.
 
 ## Sections
 
@@ -10,7 +10,7 @@ The design is deliberately minimal: a single readable column, no clutter, and co
 - **Projects** — things I've built and worked on
 - **About** — my background, experience, and where to find me
 
-A blog is planned for later.
+Maybe I could add a blog later.
 
 ## Tech stack
 
@@ -37,9 +37,9 @@ npm run lint    # run ESLint
 
 ## Updating content
 
-| What                          | Where                      |
-| ----------------------------- | -------------------------- |
-| Name, description, links      | `src/data/site.ts`         |
-| Projects                      | `src/data/projects.ts`     |
-| Home intro                    | `src/app/page.tsx`         |
-| About page                    | `src/app/about/page.tsx`   |
+| What                     | Where                    |
+| ------------------------ | ------------------------ |
+| Name, description, links | `src/data/site.ts`       |
+| Projects                 | `src/data/projects.ts`   |
+| Home intro               | `src/app/page.tsx`       |
+| About page               | `src/app/about/page.tsx` |

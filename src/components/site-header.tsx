@@ -1,13 +1,10 @@
-import Link from 'next/link'
-import { site } from '@/data/site'
 import { Navbar } from './navbar'
+import { ProfileBadge } from './profile-badge'
 
 export function SiteHeader() {
   return (
-    <header className="flex items-baseline justify-between gap-4 py-10">
-      <Link href="/" className="font-semibold tracking-tight">
-        {site.name}
-      </Link>
+    <header className="flex items-center justify-between gap-4 py-10">
+      <ProfileBadge />
       <Navbar />
     </header>
   )
