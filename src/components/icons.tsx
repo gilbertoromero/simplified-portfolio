@@ -4,7 +4,7 @@ export const Icons = {
   Instagram,
 }
 
-export function GitHub({ className }: { className?: string }) {
+export function GitHub() {
   return (
     <svg
       viewBox="0 0 98 96"
@@ -16,7 +16,7 @@ export function GitHub({ className }: { className?: string }) {
   )
 }
 
-export function LinkedIn({ className }: { className?: string }) {
+export function LinkedIn() {
   return (
     <svg
       fill="currentColor"
@@ -28,7 +28,7 @@ export function LinkedIn({ className }: { className?: string }) {
   )
 }
 
-export function Instagram({ className }: { className?: string }) {
+export function Instagram() {
   return (
     <svg
       id="Layer_1"
