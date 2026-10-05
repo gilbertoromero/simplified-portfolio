@@ -13,12 +13,14 @@ export const socials = [
     handle: '@gilbertoromero',
     href: links.github,
     icon: Icons.GitHub,
+    iconColor: '#1b1817',
   },
   {
     name: 'LinkedIn',
     handle: '@gilberto-romero-peiro',
     href: links.linkedin,
     icon: Icons.LinkedIn,
+    iconColor: '#0A66C2',
   },
   {
     name: 'Instagram',

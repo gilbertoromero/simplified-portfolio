@@ -6,6 +6,7 @@ type SocialButtonProps = {
   handle: string
   href: string
   icon: IconComponent
+  iconColor?: string
   image?: string
 }
 
@@ -14,6 +15,7 @@ export function SocialButton({
   handle,
   href,
   icon: Icon,
+  iconColor,
   image,
 }: SocialButtonProps) {
   return (
@@ -31,7 +33,9 @@ export function SocialButton({
             className="size-14"
           />
         ) : (
-          <Icon className="size-14 shrink-0" />
+          <span style={{ color: iconColor }}>
+            <Icon className="size-14 shrink-0" />
+          </span>
         )}
         <div className="grid grid-cols-[0fr] group-hover:grid-cols-[1fr]  transition-all">
           <div className="min-w-0 overflow-hidden whitespace-nowrap opacity-0 group-hover:opacity-100 group-hover:pl-3">
