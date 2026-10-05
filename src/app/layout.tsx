@@ -32,7 +32,7 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
       <body className="min-h-full">
         <div className="mx-auto flex min-h-screen max-w-4xl flex-col px-4 sm:px-6">
           <SiteHeader />
-          <main className="flex-1">{children}</main>
+          <main className="flex-1 max-w-2xl self-center">{children}</main>
           <SiteFooter />
         </div>
       </body>
