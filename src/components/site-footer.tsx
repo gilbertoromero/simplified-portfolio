@@ -1,4 +1,3 @@
-import { Icons } from '@/components/icons'
 import { site } from '@/data/site'
 
 export function SiteFooter() {
@@ -8,19 +7,16 @@ export function SiteFooter() {
         © {new Date().getFullYear()} {site.fullname}. All rights reserved.
       </p>
       <div className="flex gap-6">
-        {site.socials.map(({ name, href, icon }) => {
-          const Icon = Icons[icon]
-          return (
-            <a
-              key={name}
-              href={href}
-              aria-label={name}
-              className="text-muted size-8 hover:text-foreground"
-            >
-              <Icon />
-            </a>
-          )
-        })}
+        {site.socials.map(({ name, href, icon: Icon }) => (
+          <a
+            key={name}
+            href={href}
+            aria-label={name}
+            className="hover:text-foreground"
+          >
+            <Icon className="size-6" />
+          </a>
+        ))}
       </div>
     </footer>
   )

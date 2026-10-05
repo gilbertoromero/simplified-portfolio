@@ -1,5 +1,6 @@
+import { SocialButton } from '@/components/social-button'
 import { about } from '@/data/about'
-import { site } from '@/data/site'
+import { site, socials } from '@/data/site'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -21,15 +22,15 @@ export default function AboutPage() {
       </section>
       <h2>Contact</h2>
       <p>
-        If you want to get in touch,{' '}
-        <a href={`mailto:${site.links.email}`}>send me an email</a> or find me
-        on the web:
+        {about.contact.before}
+        <a href={`mailto:${site.links.email}`}>{about.contact.middle}</a>
+        {about.contact.after}
       </p>
-      <ul>
-        <li>
-          <a href="https://github.com/gilbertoromero">GitHub</a>
-        </li>
-      </ul>
+      <div className="flex justify-center gap-6">
+        {socials.map((social) => {
+          return <SocialButton key={social.handle} {...social} />
+        })}
+      </div>
     </article>
   )
 }

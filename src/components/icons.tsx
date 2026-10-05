@@ -1,12 +1,17 @@
+import type { ComponentType } from 'react'
+
 export const Icons = {
   GitHub,
   LinkedIn,
   Instagram,
 }
 
-export function GitHub() {
+export type IconComponent = ComponentType<{ className?: string }>
+
+export function GitHub({ className }: { className?: string }) {
   return (
     <svg
+      className={className}
       viewBox="0 0 98 96"
       fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
@@ -16,9 +21,10 @@ export function GitHub() {
   )
 }
 
-export function LinkedIn() {
+export function LinkedIn({ className }: { className?: string }) {
   return (
     <svg
+      className={className}
       fill="currentColor"
       viewBox="0 0 40 40"
       xmlns="http://www.w3.org/2000/svg"
@@ -28,11 +34,10 @@ export function LinkedIn() {
   )
 }
 
-export function Instagram() {
+export function Instagram({ className }: { className?: string }) {
   return (
     <svg
-      id="Layer_1"
-      data-name="Layer 1"
+      className={className}
       fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1000 1000"
