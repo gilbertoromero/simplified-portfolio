@@ -21,7 +21,7 @@ export function SocialButton({
   return (
     <a
       href={href}
-      className="group not-prose no-underline border rounded-md p-2"
+      className="group not-prose no-underline border rounded-md bg-foreground p-2"
     >
       <div className="flex items-center">
         {image ? (
@@ -33,11 +33,11 @@ export function SocialButton({
             className="size-14"
           />
         ) : (
-          <span style={{ color: iconColor }}>
-            <Icon className="size-14 shrink-0" />
+          <span className="shrink-0" style={{ color: iconColor }}>
+            <Icon className="size-14" />
           </span>
         )}
-        <div className="grid grid-cols-[0fr] group-hover:grid-cols-[1fr]  transition-all">
+        <div className="grid grid-cols-[0fr] text-background group-hover:grid-cols-[1fr] transition-all">
           <div className="min-w-0 overflow-hidden whitespace-nowrap opacity-0 group-hover:opacity-100 group-hover:pl-3">
             <p className="text-lg font-medium">{name}</p>
             <p>{handle}</p>

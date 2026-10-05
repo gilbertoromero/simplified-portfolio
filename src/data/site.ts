@@ -27,7 +27,7 @@ export const socials = [
     handle: '@gilbertopeiro',
     href: links.instagram,
     icon: Icons.Instagram,
-    image: '/instagram-96x96.webp',
+    image: '/instagram-logo.svg',
   },
 ]
 
