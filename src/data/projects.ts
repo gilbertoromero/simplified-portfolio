@@ -10,13 +10,42 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: 'Bitso Futfolio',
-    title: 'Bitso Futfolio',
+    slug: 'lpan',
+    title: 'LPAN',
     description:
-      'Created to run alongside worldcup, enable certain benefits on the Bitso App investors that played',
+      "Management platform for a B2B bakery in Querétaro, from client orders to production and delivery at the client's door.",
     year: 2026,
-    tags: ['TypeScript', 'R3Fiber', 'Tailwind CSS'],
-    //repo: 'https://github.com/your-handle/simplified-portfolio',
+    tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Serverless', 'PostgreSQL'],
+  },
+  {
+    slug: 'futfolio-26',
+    title: 'Futfolio 26',
+    description:
+      'World Cup companion game for the Bitso app, where investors who played competed to unlock in-app benefits.',
+    year: 2026,
+    tags: [
+      'TypeScript',
+      'React Three Fiber',
+      'Tailwind CSS',
+      'MongoDB',
+      'Serverless',
+    ],
+  },
+  {
+    slug: 'litrush',
+    title: 'LitRush',
+    description:
+      'Web game for Electrolit that drives brand engagement with its customers.',
+    year: 2024,
+    tags: ['React', 'TypeScript', 'Tailwind CSS', 'Serverless', 'MongoDB'],
+  },
+  {
+    slug: 'ucg',
+    title: 'Universidad Corporativa Gentera',
+    description:
+      "Learning platform for Gentera's corporate university, where the training team manages courses, articles and a variety of content for employees.",
+    year: 2025,
+    tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Serverless', 'PostgreSQL'],
   },
 ]
 
