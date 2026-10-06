@@ -21,7 +21,7 @@ export function ProfileBadge() {
         >
           {site.name}
         </Link>
-        <p>{site.title}</p>
+        <p className="text-muted">{site.title}</p>
       </div>
     </div>
   )

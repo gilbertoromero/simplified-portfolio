@@ -10,7 +10,7 @@ export default function Home() {
         </h1>
       </section>
 
-      <section className="mt-12">
+      <section>
         <ProjectList projects={projectsByYear.slice(0, 3)} />
       </section>
     </>
