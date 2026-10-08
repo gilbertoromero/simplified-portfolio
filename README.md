@@ -41,7 +41,9 @@ For now, all content lives in typed data files. There is no database or CMS yet.
 
 Planned features, roughly in order:
 
-**Project management panel (backend):** add, edit, reorder and hide projects from an admin panel instead of editing `projects.ts`.
-**Icon and social link management:** manage the social links and their icons from the same admin panel.
-**Project previews and showcase:** screenshots, demos or live previews of each project inside the site.
-**Blog:** maybe, later.
+| Feature                          | Description                                                                                  | Status  |
+| -------------------------------- | -------------------------------------------------------------------------------------------- | ------- |
+| Project management panel         | Add, edit, reorder and hide projects from an admin panel (backend) instead of `projects.ts`. | Planned |
+| Icon and social link management  | Manage the social links and their icons from the same admin panel.                           | Planned |
+| Project previews and showcase    | Screenshots, demos or live previews of each project inside the site.                         | Planned |
+| Blog                             | Maybe, later.                                                                                | Idea    |
