@@ -7,7 +7,7 @@ export function ProfileBadge() {
     <div className="flex">
       <Link href="/" tabIndex={-1} aria-hidden="true">
         <Image
-          src={'/prof-cat.png'}
+          src={'/profile.png'}
           width={80}
           height={80}
           alt=""
