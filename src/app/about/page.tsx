@@ -12,7 +12,7 @@ export default function AboutPage() {
   return (
     <article className="prose prose-neutral py-8 dark:prose-invert">
       <section>
-        <h1 className="text-3xl text-center font-semibold tracking-tight sm:text-4xl">
+        <h1 className="text-4xl text-center font-semibold tracking-tight">
           {aboutPage.heading}
         </h1>
         {aboutPage.paragraphs.map((text) => (

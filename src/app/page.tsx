@@ -5,13 +5,13 @@ export default function Home() {
   return (
     <>
       <section className="py-8">
-        <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
+        <h1 className="text-4xl font-semibold tracking-tight">
           Recent projects
         </h1>
       </section>
 
       <section>
-        <ProjectList projects={projectsByYear.slice(0, 3)} />
+        <ProjectList projects={projectsByYear.slice(0, 2)} />
       </section>
     </>
   )

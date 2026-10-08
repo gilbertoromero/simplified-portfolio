@@ -10,7 +10,12 @@ export function ProjectList({ projects }: { projects: Project[] }) {
             <div className="flex items-baseline justify-between gap-4">
               <h2 className="font-medium">
                 {href ? (
-                  <a href={href} className="underline-offset-4 hover:underline">
+                  <a
+                    href={href}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="underline-offset-4 hover:underline"
+                  >
                     {project.title}
                   </a>
                 ) : (

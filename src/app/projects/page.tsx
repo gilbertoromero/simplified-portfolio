@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function ProjectsPage() {
   return (
     <section className="py-8">
-      <h1 className="text-3xl font-semibold tracking-tight">
+      <h1 className="text-4xl font-semibold tracking-tight">
         {projectsPage.title}
       </h1>
       <p className="mt-4 text-muted">{projectsPage.paragraph}</p>

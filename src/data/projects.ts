@@ -33,22 +33,13 @@ export const projects: Project[] = [
     ],
     url: 'https://demo.bitso.futfolio.com/',
   },
-  /* {
-    slug: 'litrush',
-    title: 'LitRush',
-    description:
-      'Web game for Electrolit that drives brand engagement with its customers.',
-    year: 2024,
-    tags: ['React', 'TypeScript', 'Tailwind CSS', 'Serverless', 'MongoDB'],
-    url: '',
-  }, */
   {
     slug: 'ucg',
     title: 'Universidad Corporativa Gentera',
     description:
-      "Learning platform for Gentera's corporate university, where the training team manages courses, articles and a variety of content for employees.",
+      "Learning platform for Gentera's corporate university, where the training team manages courses, articles and a variety of content for employees. Private platform with SSO login.",
     year: 2025,
-    tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Serverless', 'PostgreSQL'],
+    tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Serverless', 'MongoDB'],
     url: 'https://www.universidadcorporativagentera.com/',
   },
 ]
