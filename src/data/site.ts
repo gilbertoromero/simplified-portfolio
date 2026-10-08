@@ -3,7 +3,7 @@ import { Icons } from '@/components/icons'
 export const links = {
   email: 'hello@gilromero.dev',
   github: 'https://github.com/gilbertoromero',
-  linkedin: 'https://www.linkedin.com/in/gilberto-romero-peiro-81773465',
+  linkedin: 'https://www.linkedin.com/in/gilberto-romero-peiro',
   instagram: 'https://www.instagram.com/gilbertopeiro/',
 }
 
