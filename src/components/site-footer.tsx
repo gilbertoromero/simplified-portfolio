@@ -11,6 +11,8 @@ export function SiteFooter() {
           <a
             key={name}
             href={href}
+            target="_blank"
+            rel="noreferrer"
             aria-label={name}
             className="hover:text-foreground"
           >
