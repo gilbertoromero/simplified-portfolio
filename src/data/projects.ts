@@ -16,6 +16,7 @@ export const projects: Project[] = [
       "Management platform for a B2B bakery in Querétaro, from client orders to production and delivery at the client's door.",
     year: 2026,
     tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Serverless', 'PostgreSQL'],
+    url: 'https://lpan.com.mx',
   },
   {
     slug: 'futfolio-26',
@@ -30,15 +31,17 @@ export const projects: Project[] = [
       'MongoDB',
       'Serverless',
     ],
+    url: 'https://demo.bitso.futfolio.com/',
   },
-  {
+  /* {
     slug: 'litrush',
     title: 'LitRush',
     description:
       'Web game for Electrolit that drives brand engagement with its customers.',
     year: 2024,
     tags: ['React', 'TypeScript', 'Tailwind CSS', 'Serverless', 'MongoDB'],
-  },
+    url: '',
+  }, */
   {
     slug: 'ucg',
     title: 'Universidad Corporativa Gentera',
@@ -46,6 +49,7 @@ export const projects: Project[] = [
       "Learning platform for Gentera's corporate university, where the training team manages courses, articles and a variety of content for employees.",
     year: 2025,
     tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Serverless', 'PostgreSQL'],
+    url: 'https://www.universidadcorporativagentera.com/',
   },
 ]
 
